@@ -37,8 +37,9 @@ app.get('/', (req,res) => {
 	res.send("Welcome")
 })
 
-// File //
-app.use('/route_1', routes_1)
+// Route1 //
+app.use('/routes_1', routes_1)
+
 // Listening 
 app.listen(3000, () => {
   console.log("API Server is running...");
